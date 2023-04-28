@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNG">
+    <test name="Feature test">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+        <parameter name="email" value="Admin"></parameter>
+        <parameter name="password" value="admin123"></parameter>
+        <classes>
+<!--            <class name="com.example.demo1.MainPageTest"></class>-->
+<!--            <class name="com.example.demo1.testNGFeatures"></class>-->
+            <class name="com.example.demo1.parametersTestNG"></class>
+
+        </classes>
+
+    </test>
+</suite>
