@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG">
+    <parameter name="url" value="https://www.google.com/"></parameter>
+    <test name="Internet explorer">
+        <parameter name="BrowserType" value="Internet Explorer"></parameter>
+        <classes>
+            <class name="com.example.demo1.crossBrowser"></class>
+        </classes>
+    </test>
+    <test name="Test on fireFox">
+        <parameter name="BrowserType" value="Firefox"></parameter>
+        <classes>
+            <class name="com.example.demo1.crossBrowser"></class>
+        </classes>
+    </test>
+    <test name="Test on Chrome">
+        <parameter name="BrowserType" value="Chrome"></parameter>
+        <classes>
+            <class name="com.example.demo1.crossBrowser"></class>
+        </classes>
+    </test>
+</suite>

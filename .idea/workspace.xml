@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607004a3-b627-4d75-b00b-3be689bc8821" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/crossBrowser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/crossBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo1/dataProviderAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/dataProviderAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo1/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo1/dataProviderAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo1/dataProviderAnnotation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +62,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BertinaAyuure\IdeaProjects\demo1\src" />
+      <recent name="C:\Users\BertinaAyuure\IdeaProjects\demo1\src\test" />
       <recent name="C:\Users\BertinaAyuure\IdeaProjects\demo1\src\test\java\com\example\demo1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.dataProviderAnnotation">
-    <configuration name="testNG.xml.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo1/com/example/demo1/testNG.xml.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+  <component name="RunManager" selected="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/crossBrowser.xml">
+    <configuration name="C:/Users/BertinaAyuure/IdeaProjects/demo1/src/crossBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/crossBrowser.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="C:/Users/BertinaAyuure/IdeaProjects/demo1/src/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo1" />
@@ -93,6 +104,24 @@
       <listeners>
         <listener class="org.testng.reporters.EmailableReporter" />
       </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crossBrowser.setup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo1.crossBrowser" />
+      <option name="METHOD_NAME" value="setup" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,38 +160,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testNGFeatures" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo1" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo1.testNGFeatures" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.testNG.xml.html" />
       <item itemvalue="TestNG.Test reports " />
+      <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/crossBrowser.xml" />
+      <item itemvalue="TestNG.crossBrowser.setup" />
       <item itemvalue="TestNG.dataProviderAnnotation" />
       <item itemvalue="TestNG.test" />
       <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/testNG.xml" />
-      <item itemvalue="TestNG.testNGFeatures" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/crossBrowser.xml" />
+        <item itemvalue="TestNG.crossBrowser.setup" />
         <item itemvalue="TestNG.dataProviderAnnotation" />
         <item itemvalue="TestNG.test" />
         <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/testNG.xml" />
-        <item itemvalue="TestNG.testNGFeatures" />
-        <item itemvalue="JavaScript Debug.testNG.xml.html" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +189,9 @@
       <workItem from="1682411507754" duration="25994000" />
       <workItem from="1682603740090" duration="3430000" />
       <workItem from="1682673253261" duration="7705000" />
-      <workItem from="1683014800460" duration="2546000" />
+      <workItem from="1683014800460" duration="6227000" />
+      <workItem from="1683022334076" duration="4669000" />
+      <workItem from="1683032624906" duration="158000" />
     </task>
     <servers />
   </component>
