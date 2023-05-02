@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607004a3-b627-4d75-b00b-3be689bc8821" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo1/dataProviderAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/dataProviderAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo1/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +40,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/BertinaAyuure/IdeaProjects/demo1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/BertinaAyuure/IdeaProjects/demo1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\BertinaAyuure\IdeaProjects\demo1\src\test\java\com\example\demo1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/testNG.xml">
+  <component name="RunManager" selected="TestNG.dataProviderAnnotation">
     <configuration name="testNG.xml.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo1/com/example/demo1/testNG.xml.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -95,6 +97,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dataProviderAnnotation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo1.dataProviderAnnotation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo1.test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testNGFeatures" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo1" />
       <extension name="coverage">
@@ -115,11 +151,15 @@
     <list>
       <item itemvalue="JavaScript Debug.testNG.xml.html" />
       <item itemvalue="TestNG.Test reports " />
+      <item itemvalue="TestNG.dataProviderAnnotation" />
+      <item itemvalue="TestNG.test" />
       <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/testNG.xml" />
       <item itemvalue="TestNG.testNGFeatures" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.dataProviderAnnotation" />
+        <item itemvalue="TestNG.test" />
         <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/testNG.xml" />
         <item itemvalue="TestNG.testNGFeatures" />
         <item itemvalue="JavaScript Debug.testNG.xml.html" />
@@ -136,7 +176,8 @@
       <updated>1682411506505</updated>
       <workItem from="1682411507754" duration="25994000" />
       <workItem from="1682603740090" duration="3430000" />
-      <workItem from="1682673253261" duration="3517000" />
+      <workItem from="1682673253261" duration="7705000" />
+      <workItem from="1683014800460" duration="2546000" />
     </task>
     <servers />
   </component>
