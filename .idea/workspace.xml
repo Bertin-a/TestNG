@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607004a3-b627-4d75-b00b-3be689bc8821" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/crossBrowser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/crossBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/ExcelLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/excel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo1/dataProviderAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/dataProviderAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo1/dataProviderAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo1/dataProviderAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo1/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/Data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo1/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo1/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +68,10 @@
       <recent name="C:\Users\BertinaAyuure\IdeaProjects\demo1\src\test\java\com\example\demo1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/crossBrowser.xml">
+  <component name="RunManager" selected="TestNG.excel.readExcel">
     <configuration name="C:/Users/BertinaAyuure/IdeaProjects/demo1/src/crossBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo1" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/crossBrowser.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/BertinaAyuure/IdeaProjects/demo1/src/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo1" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -143,6 +134,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="excel.readExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo1.excel" />
+      <option name="METHOD_NAME" value="readExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo1" />
       <extension name="coverage">
@@ -162,19 +171,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Test reports " />
+      <item itemvalue="TestNG.excel.readExcel" />
       <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/crossBrowser.xml" />
       <item itemvalue="TestNG.crossBrowser.setup" />
       <item itemvalue="TestNG.dataProviderAnnotation" />
       <item itemvalue="TestNG.test" />
-      <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/testNG.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.excel.readExcel" />
         <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/crossBrowser.xml" />
         <item itemvalue="TestNG.crossBrowser.setup" />
         <item itemvalue="TestNG.dataProviderAnnotation" />
         <item itemvalue="TestNG.test" />
-        <item itemvalue="TestNG.C:/Users/BertinaAyuure/IdeaProjects/demo1/src/testNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +201,14 @@
       <workItem from="1683014800460" duration="6227000" />
       <workItem from="1683022334076" duration="4669000" />
       <workItem from="1683032624906" duration="158000" />
+      <workItem from="1683033746948" duration="77000" />
+      <workItem from="1683190511703" duration="2074000" />
+      <workItem from="1683272601768" duration="7014000" />
+      <workItem from="1683618708633" duration="59000" />
+      <workItem from="1683633272194" duration="27000" />
+      <workItem from="1683639353822" duration="261000" />
+      <workItem from="1683642821099" duration="909000" />
+      <workItem from="1683706426235" duration="1376000" />
     </task>
     <servers />
   </component>
